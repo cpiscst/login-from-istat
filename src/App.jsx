@@ -1,6 +1,9 @@
 
 
-
+ 
+ import twitter from "../src/assets/twitter.jpg"
+ import insta from "../src/assets/insta.jpg"
+ import facebook from "../src/assets/facebook.jpg"
 function App() {
 
 
@@ -9,28 +12,43 @@ function App() {
     <div className="flex justify-center ">
       <div className="my-20 max-w-[600px] pl-5 border-2 p-5 ">
       <h1 className="text-6xl font-bold pb-10">
-  Login-from
+  Login-form
 </h1>
       <div className='bg-white'>
     <p className='text-xl front-bold'> User Name or Email:</p>
-    <input type="text" className='border-2 rounded-md h-[40px] w-[300px] font-blod text-gray-500 text-xl p-3' />
+    <input type="text"placeholder="User Name or Email" className='border-2 rounded-md h-[40px] w-[300px] font-blod text-gray-500 text-xl p-3' />
     </div>
     
     <div className='bg-white'>
     <p className='text-xl front-bold'> Password:</p>
-    <input type="text" className='border-2 rounded-md h-[40px] w-[300px] font-blod  text-gray-500 text-xl p-3' />
+    <input type="text"placeholder="Password" className='border-2 rounded-md h-[40px] w-[300px] font-blod  text-gray-500 text-xl p-3' />
     </div>
-    <div className="my-3"></div> 
+    
     <div className='bg-white'>
-    <p className='text-right front-bold'> Forget Password?</p>
-   
+    <p className='text-right front-bold py-2'> Forget Password?</p>
     </div>
+    
     <div className="flex justify-center">
-    <button className="bg-blue-300 p-3 text-black border-2 rounded-md w-[150px] h-[50px] m-15">
+    <button className="bg-blue-300 p-3 text-black border-2 rounded-md w-[150px] h-[50px] ">
     Log-in
   </button>
-      </div> 
-   
+      </div>
+      
+      <div> 
+      <p className="text-center front-bold py-3">Or Sign Up Using</p>
+     <div className="flex justify-center">
+      <img className=" h-8 w-8" src= {twitter} alt="twitter" />
+      <img className=" mx-2 h-8 w-8" src= {facebook} alt="facebook" />
+      <img className=" h-8 w-8" src= {insta} alt="insta" />
+     </div>
+      </div>
+      <div >
+      <p className="text-center front-bold py-3">Or Sign Up Using</p>
+      <h1 className="text-center">Sing-Up</h1>
+
+      </div>
+
+
       </div>
     </div>
     
