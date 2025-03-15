@@ -34,7 +34,7 @@ function App() {
   </button>
       </div>
       
-      <div> 
+      <div className="my-10"> 
       <p className="text-center front-bold py-3">Or Sign Up Using</p>
      <div className="flex justify-center">
       <img className=" h-8 w-8" src= {twitter} alt="twitter" />
@@ -43,7 +43,7 @@ function App() {
      </div>
       </div>
       <div >
-      <p className="text-center front-bold py-3">Or Sign Up Using</p>
+      <p className="text-center front-bold py-1">Or Sign Up Using</p>
       <h1 className="text-center">Sing-Up</h1>
 
       </div>
